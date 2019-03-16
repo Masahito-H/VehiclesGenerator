@@ -42,7 +42,7 @@ void exportCSV::write(string obj, int no, int x, int y, int frame){
 }
 
 void exportCSV::download(){
-    output.open("/Users/ORz/Desktop/openFrameworks works/of_v0.10.0_osx_release/apps/myApps/ALife/bin/data/vehicle.csv", ios::trunc);
+    output.open("[output path]", ios::trunc); //set output path
     
     output << variants << std::endl;
     
